@@ -1,0 +1,265 @@
+{
+  "classes": [
+    {
+      "code": "PHYS-101",
+      "name": "Class 11 Physics - Section A",
+      "teacherId": "teacher_01",
+      "createdAt": "2026-11-20T10:00:00Z"
+    },
+    {
+      "code": "HACK-2026",
+      "name": "HackHounds Advanced Lab",
+      "teacherId": "teacher_01",
+      "createdAt": "2026-11-21T09:00:00Z"
+    }
+  ],
+  "students": [
+    {
+      "id": "s1",
+      "name": "Aarav Sharma",
+      "email": "aarav.s@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s2",
+      "name": "Ananya Iyer",
+      "email": "ananya.i@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s3",
+      "name": "Rohan Verma",
+      "email": "rohan.v@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s4",
+      "name": "Priya Nair",
+      "email": "priya.n@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s5",
+      "name": "Kabir Patel",
+      "email": "kabir.p@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s6",
+      "name": "Diya Chatterjee",
+      "email": "diya.c@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s7",
+      "name": "Siddharth Rao",
+      "email": "sid.r@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s8",
+      "name": "Sneha Mukherjee",
+      "email": "sneha.m@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s9",
+      "name": "Aditya Joshi",
+      "email": "aditya.j@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s10",
+      "name": "Meera Gupta",
+      "email": "meera.g@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s11",
+      "name": "Arjun Reddy",
+      "email": "arjun.r@school.edu",
+      "classCode": "PHYS-101"
+    },
+    {
+      "id": "s12",
+      "name": "Tanvi Deshmukh",
+      "email": "tanvi.d@school.edu",
+      "classCode": "PHYS-101"
+    }
+  ],
+  "attempts": [
+    {
+      "id": "att_01",
+      "studentId": "s1",
+      "studentName": "Aarav Sharma",
+      "classCode": "PHYS-101",
+      "experiment": "ohm",
+      "score": 95,
+      "mistakes": [
+        "openCircuit"
+      ],
+      "hintsUsed": 1,
+      "timeTaken": 184,
+      "date": "2026-11-22T14:20:00Z"
+    },
+    {
+      "id": "att_02",
+      "studentId": "s2",
+      "studentName": "Ananya Iyer",
+      "classCode": "PHYS-101",
+      "experiment": "pendulum",
+      "score": 98,
+      "mistakes": [],
+      "hintsUsed": 0,
+      "timeTaken": 140,
+      "date": "2026-11-22T14:35:00Z"
+    },
+    {
+      "id": "att_03",
+      "studentId": "s3",
+      "studentName": "Rohan Verma",
+      "classCode": "PHYS-101",
+      "experiment": "ohm",
+      "score": 62,
+      "mistakes": [
+        "ammeterInParallel",
+        "shortCircuit",
+        "voltmeterInSeries"
+      ],
+      "hintsUsed": 4,
+      "timeTaken": 340,
+      "date": "2026-11-22T15:10:00Z",
+      "needsHelp": true
+    },
+    {
+      "id": "att_04",
+      "studentId": "s4",
+      "studentName": "Priya Nair",
+      "classCode": "PHYS-101",
+      "experiment": "pendulum",
+      "score": 88,
+      "mistakes": [
+        "angleTooLarge"
+      ],
+      "hintsUsed": 1,
+      "timeTaken": 195,
+      "date": "2026-11-22T15:30:00Z"
+    },
+    {
+      "id": "att_05",
+      "studentId": "s5",
+      "studentName": "Kabir Patel",
+      "classCode": "PHYS-101",
+      "experiment": "ohm",
+      "score": 55,
+      "mistakes": [
+        "shortCircuit",
+        "shortCircuit",
+        "resistorOverheating"
+      ],
+      "hintsUsed": 5,
+      "timeTaken": 410,
+      "date": "2026-11-22T15:50:00Z",
+      "needsHelp": true
+    },
+    {
+      "id": "att_06",
+      "studentId": "s6",
+      "studentName": "Diya Chatterjee",
+      "classCode": "PHYS-101",
+      "experiment": "pendulum",
+      "score": 92,
+      "mistakes": [
+        "singleOscillationTimed"
+      ],
+      "hintsUsed": 1,
+      "timeTaken": 165,
+      "date": "2026-11-22T16:05:00Z"
+    },
+    {
+      "id": "att_07",
+      "studentId": "s7",
+      "studentName": "Siddharth Rao",
+      "classCode": "PHYS-101",
+      "experiment": "ohm",
+      "score": 84,
+      "mistakes": [
+        "wrongPolarity"
+      ],
+      "hintsUsed": 2,
+      "timeTaken": 220,
+      "date": "2026-11-22T16:20:00Z"
+    },
+    {
+      "id": "att_08",
+      "studentId": "s8",
+      "studentName": "Sneha Mukherjee",
+      "classCode": "PHYS-101",
+      "experiment": "pendulum",
+      "score": 58,
+      "mistakes": [
+        "angleTooLarge",
+        "massConfusion",
+        "stoppedTooEarly"
+      ],
+      "hintsUsed": 4,
+      "timeTaken": 390,
+      "date": "2026-11-22T16:45:00Z",
+      "needsHelp": true
+    },
+    {
+      "id": "att_09",
+      "studentId": "s9",
+      "studentName": "Aditya Joshi",
+      "classCode": "PHYS-101",
+      "experiment": "ohm",
+      "score": 90,
+      "mistakes": [
+        "openCircuit"
+      ],
+      "hintsUsed": 1,
+      "timeTaken": 175,
+      "date": "2026-11-22T17:00:00Z"
+    },
+    {
+      "id": "att_10",
+      "studentId": "s10",
+      "studentName": "Meera Gupta",
+      "classCode": "PHYS-101",
+      "experiment": "pendulum",
+      "score": 96,
+      "mistakes": [],
+      "hintsUsed": 0,
+      "timeTaken": 155,
+      "date": "2026-11-22T17:15:00Z"
+    },
+    {
+      "id": "att_11",
+      "studentId": "s11",
+      "studentName": "Arjun Reddy",
+      "classCode": "PHYS-101",
+      "experiment": "ohm",
+      "score": 72,
+      "mistakes": [
+        "voltmeterInSeries"
+      ],
+      "hintsUsed": 2,
+      "timeTaken": 260,
+      "date": "2026-11-22T17:30:00Z"
+    },
+    {
+      "id": "att_12",
+      "studentId": "s12",
+      "studentName": "Tanvi Deshmukh",
+      "classCode": "PHYS-101",
+      "experiment": "pendulum",
+      "score": 91,
+      "mistakes": [
+        "angleTooLarge"
+      ],
+      "hintsUsed": 1,
+      "timeTaken": 180,
+      "date": "2026-11-22T17:45:00Z"
+    }
+  ]
+}
